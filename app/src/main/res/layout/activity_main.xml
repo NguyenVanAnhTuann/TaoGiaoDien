@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/z3676576419358_c30d14b6c1019149552a2bba9f19aa2f"
+        android:layout_marginTop="120dp"
+        android:id="@+id/iconLogin"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconLogin"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="120dp"
+        android:paddingLeft="30dp"
+        android:text="Nguyễn Văn Anh Tuấn  2050531200318"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconLogin"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="100dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_baseline_person_30"
+        android:drawablePadding="10dp"
+        android:hint="UserName"
+        android:paddingVertical="20dp"
+        android:paddingLeft="30dp"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="10dp"
+        android:hint="Password..."
+        android:paddingVertical="20dp"
+        android:paddingLeft="30dp"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <Button
+
+        android:id="@+id/LoginMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/black"
+        android:paddingHorizontal="100dp"
+        android:paddingVertical="10dp"
+        android:text="LOGIN ME"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LoginMe"
+        android:layout_marginTop="70dp"
+        android:paddingHorizontal="135dp"
+        android:paddingLeft="30dp"
+        android:text="Lost password?"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+
+</RelativeLayout>
